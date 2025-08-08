@@ -1,0 +1,16 @@
+plugin:
+  enabled: "&aMangoLimiter habilitado correctamente." # MANGOFUHRER
+  disabled: "&cMangoLimiter deshabilitado."
+
+fly-limit-message: "&c¡No puedes volar por encima de los %height% bloques de altura!"
+
+reload-success: "&aLa configuración se ha recargado correctamente."
+
+errors:
+  no-permission: "&cNo tienes permiso para hacer eso."
+  unknown-command: "&cComando desconocido. Usa /mangolimiter help para ver las opciones disponibles."
+
+help:
+  - "&b&lAyuda de MangoLimiter:"
+  - "&7/ml help &f- Muestra este menú de ayuda"
+  - "&7/ml reload &f- Recarga la configuración del plugin"

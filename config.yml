@@ -1,0 +1,22 @@
+# MangoLimiter - Configuration File
+
+language: "en"  # Language options: en, es
+
+flylimiter:
+  max-height: 150  # Maximum Y-level players can fly to
+
+  permissions:
+    bypass: "mangolimiter.bypass"  # Permission to bypass the height limit
+
+permissions:
+  use: "mangolimiter.use"  # Permission to use plugin commands
+
+debug: false  # Set to true to enable debug logs (Console spam [INFO] [MangoLimiter] MangoFuhrer has permission 'mangolimiter.use': true)
+
+info:
+  usage:
+    - "/mangolimiter help - Show help menu"
+    - "/mangolimiter reload - Reload config"
+  notes:
+    - "Players with 'mangolimiter.bypass' can fly above the max height."
+    - "Use a permissions plugin like LuckPerms for managing ranks." # MANGOFUHRER
